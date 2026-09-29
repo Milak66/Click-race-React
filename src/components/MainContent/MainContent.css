@@ -8,7 +8,7 @@
 .click_gretting {
     display: grid;
     width: 100%;
-    grid-template-columns: 1fr 29vw;
+    grid-template-columns: 1fr 32vw;
 }
 
 .click_gretting_mobile {
