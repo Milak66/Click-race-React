@@ -1,10 +1,10 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-type TextForMessage = 'Ты вообще кликал?' 
-| 'Такой себе результат, мог бы и по лучше' 
-| 'Неплохо, но стоит потренироватся' 
-| 'Ты кликаешь довольно быстро, так держать!' 
-| 'Вау, ты истиный чемпион по кликам! А теперь займись чем-то более продуктивным';
+type TextForMessage = 'Were you even clicking?' 
+| "It's a so-so result; it could have been better."
+| "Not bad, but you should practice more"
+| "You're clicking quite fast, keep it up!"
+| "Wow, you're a real clicking champion! Now go do something more productive.";
 
 type TextForStarts = '✭' | '✭✭' | '✭✭✭' | '✭✭✭✭' |'✭✭✭✭✭';
 
@@ -21,31 +21,31 @@ interface UserScore<T, S, C> {
 }
 
 const userScore1: UserScore<TextForMessage, TextForStarts, ScoreColor> = {
-    userMessage: 'Ты вообще кликал?',
+    userMessage: 'Were you even clicking?',
     userStars: '✭',
     scoreColor: 'worst_score'
 }
 
 const userScore2: UserScore<TextForMessage, TextForStarts, ScoreColor> = {
-    userMessage: 'Такой себе результат, мог бы и по лучше',
+    userMessage: "It's a so-so result; it could have been better.",
     userStars: '✭✭',
     scoreColor: 'bad_score'
 }
 
 const userScore3: UserScore<TextForMessage, TextForStarts, ScoreColor> = {
-    userMessage: 'Неплохо, но стоит потренироватся',
+    userMessage: "Not bad, but you should practice more",
     userStars: '✭✭✭',
     scoreColor: 'average_score'
 }
 
 const userScore4: UserScore<TextForMessage, TextForStarts, ScoreColor> = {
-    userMessage: 'Ты кликаешь довольно быстро, так держать!',
+    userMessage: "You're clicking quite fast, keep it up!",
     userStars: '✭✭✭✭',
     scoreColor: 'good_score'
 }
 
 const userScore5: UserScore<TextForMessage, TextForStarts, ScoreColor> = {
-    userMessage: 'Вау, ты истиный чемпион по кликам! А теперь займись чем-то более продуктивным',
+    userMessage: "Wow, you're a real clicking champion! Now go do something more productive.",
     userStars: '✭✭✭✭✭',
     scoreColor: 'best_score'
 }

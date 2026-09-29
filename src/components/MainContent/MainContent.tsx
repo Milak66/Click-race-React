@@ -115,9 +115,9 @@ const MainContent: React.FC<MainContentProps> = () => {
 
   const onShowBtn = () => {
     if (removeBtn) {
-      return (<button className="click_btn_useless">Начать</button> );
+      return (<button className="click_btn_useless">Start</button> );
     }
-    return (<button onClick={onButtonEvents} className="click_btn">Начать</button>)
+    return (<button onClick={onButtonEvents} className="click_btn">Start</button>)
   }
 
   return (
@@ -125,24 +125,24 @@ const MainContent: React.FC<MainContentProps> = () => {
       <div className="click_gretting">
       <div className="click_title">
         <p className="title_one">
-          Давай проверим сколько кликов ты сможешь сделать за 10 секунд
+        Let's see how many clicks you can make in 10 seconds.
         </p>
-        <p className="title_two">Кликни на кнопку снизу чтобы начать</p>
+        <p className="title_two">Click the button below to start.</p>
       </div>
       {showUserScore()}
       </div>
       <div className="click_gretting_mobile">
       <div className="click_title_mobile">
         <p className="title_one_mobile">
-          Давай проверим сколько кликов ты сможешь сделать за 10 секунд
+        Let's see how many clicks you can make in 10 seconds.
         </p>
-        <p className="title_two_mobile">Кликни на кнопку снизу чтобы начать</p>
+        <p className="title_two_mobile">Click the button below to start.</p>
       </div>
       </div>
       <div className="click_place">
         <div className="click_settings">
         <div className="click_counter">
-          <p>Кликов сделано: {clicks}</p>
+          <p>Clicks made: {clicks}</p>
         </div>
         <div className="click_btn_place">
           {onShowBtn()}
@@ -160,7 +160,7 @@ const MainContent: React.FC<MainContentProps> = () => {
       <div className="modal_place_mobile">
           {showUserScore()}
       </div>
-      <div className="autor_link_place"><a className="autor_link" href="https://aleksey-the-developer.vercel.app" target="blank">Ссылка на автора</a></div>
+      <div className="autor_link_place"><a className="autor_link" href="https://aleksey-the-developer.vercel.app" target="blank">Author link</a></div>
     </div>
   );
 };
