@@ -96,7 +96,7 @@
     width: 40vw;
     height: 40vh;
     opacity: 0.5;
-    background: linear-gradient(to right, rgb(176, 6, 243), rgb(166, 0, 166));
+    background: linear-gradient(to right, #b14cff, rgb(166, 0, 166));
     border: 1px solid;
     border-radius: 2vw;
     cursor: pointer;
@@ -131,7 +131,7 @@
     border-radius: 2vw;
     font-size: 1.2vw;
     border: none;
-    background-color: rgb(150, 0, 150);
+    background-color: #b14cff;
     cursor: pointer;
 }
 
@@ -154,7 +154,7 @@
 
 .autor_link {
     font-size: 1.7vw;
-    color: rgb(150, 0, 150);
+    color: #b14cff;
     text-decoration: none;
 }
 
@@ -232,7 +232,7 @@
         width: 60vw;
         height: 30vh;
         opacity: 0.5;
-        background: linear-gradient(to right, rgb(176, 6, 243), rgb(166, 0, 166));
+        background: linear-gradient(to right, #b14cff, rgb(166, 0, 166));
         border: 1px solid;
         border-radius: 5vw;
         cursor: pointer;
@@ -262,7 +262,6 @@
         border-radius: 3vw;
         font-size: 2.8vw;
         border: none;
-        background-color: rgb(150, 0, 150);
         cursor: pointer;
     }
 
@@ -285,7 +284,6 @@
     
     .autor_link {
         font-size: 3vw;
-        color: rgb(150, 0, 150);
         text-decoration: none;
     }
 }
